@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.png" />
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="fixed top-0 bg-Viking-900 flex items-center justify-around w-full h-20 text-white px-4 z-50">
+        <div class="p-3">
+            <h2 class="hover:text-BlueBayoux-400 font-BlackOpsOne text-PictonBlue-600 font-normal text-5xl uppercase">
+                tucci
+            </h2>
+        </div>
+        <nav>
+            <ul class="hidden md:flex items-center align-middle justify-center font-BebasNeue">
+                <li>
+                    <a href="#" class="hover:text-BlueBayoux-400 text-2xl px-3 cursor-pointer duration-200">&lt; inicio
+                        /&gt;</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-BlueBayoux-400 text-2xl px-3 cursor-pointer duration-200">&lt;
+                        Habilidades /&gt;</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:text-BlueBayoux-400 text-2xl px-3 cursor-pointer duration-200">&lt;
+                        proyectos /&gt;</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cursor-pointer pr-4 z-10 md:hidden ">
+            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" class="dark:text-black"
+                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                </path>
+            </svg>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <div class="py-14">
+            <div class="py-10 px-72 flex items-center">
+                <header>
+                    <img src="./src/assets/Profile.jpg" alt="Img Tucci" class="w-60 rounded-full shadow-2xl">
+                    <ul class='flex justify-center gap-10 py-5'>
+                        <li>
+                            <a href="https://github.com/VRXtucci">
+                                <img src="./src/assets/github.png" alt="Github" class=' w-10' />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="linkedin.com/in/jose-tucci-7bb87918a/">
+                                <img src="./src/assets/linkedin.png" alt="Linkedin" class=' w-10' />
+                            </a>
+                        </li>
+                    </ul>
+                </header>
+                <main>
+                    <h2 class="font-BlackOpsOne font-normal uppercase text-8xl mx-24 text-Viking-500">
+                        Jose Tucci.
+                        <span class="font-BebasNeue lowercase block text-white">
+                            Frontend Developer.
+                        </span>
+                    </h2>
+                </main>
+            </div>
+
+            <footer class="px-72">
+                <h2 class='font-BlackOpsOne font-normal uppercase text-4xl text-Viking-500'>
+                    <span class=' text-PictonBlue-300'>
+                        &lt;
+                    </span>
+                    &nbsp;sobre mí&nbsp;
+                    <span class=' text-PictonBlue-300'>
+                        /&gt;
+                    </span>
+                </h2>
+                <div class=' w-[45rem]'>
+                    <p class='font-BebasNeue text-white font-normal text-2xl py-1'>
+                        ¡Sean bienvenidos! Soy José Tucci, tengo actualmente 24 años y me desempeño como programador
+                        frontend.
+                        Desde los 12 años, he sentido una fuerte afinidad por el mundo de la informática y los
+                        videojuegos.
+                        Me considero una persona sociable, amigable y responsable.
+                    </p>
+                    <p class='font-BebasNeue text-white font-normal text-2xl py-5'>
+                        A partir de los 17 años, me adentré en la programación web y el diseño de interfaces.
+                        Hace aproximadamente un año, concluí con éxito un curso de programación web full stack,
+                        enfocándome especialmente en el desarrollo del diseño web y la interfaz con el usuario.
+                    </p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Skills -->
+        <div>
+            <section class='px-72 gap-10 grid bg-BlueBayoux-800 py-12 h-screen'>
+                <h2 class=" font-BlackOpsOne text-Viking-500 font-normal text-4xl uppercase">
+                    <span class=' text-PictonBlue-300'>
+                        &lt;
+                    </span>
+                    &nbsp;Habilidades&nbsp;
+                    <span class=' text-PictonBlue-300'>
+                        /&gt;
+                    </span>
+                </h2>
+                <div class='flex justify-between'>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>Html</h3>
+                        <img src="./src/assets/html5.svg" alt="html" />
+
+                    </article>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>Css</h3>
+                        <img src="./src/assets/css3.svg" alt="css" />
+
+                    </article>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>JavaScript</h3>
+                        <img src="./src/assets/javascript.svg" alt="javascript" />
+
+                    </article>
+                </div>
+                <div class='flex justify-between'>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>React</h3>
+                        <img src="./src/assets/react.svg" alt="React" />
+
+                    </article>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>Axios</h3>
+                        <img src="./src/assets/axios.svg" alt="Axios" width="128px" />
+
+                    </article>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>Tailwind</h3>
+                        <img src="./src/assets/tailwind.svg" alt="Tailwind" />
+
+                    </article>
+                </div>
+                <div class='flex justify-evenly'>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>Git</h3>
+                        <img src="./src/assets/git.svg" alt="Git" />
+                    </article>
+                    <article>
+                        <h3 class=' font-BebasNeue text-white text-3xl'>GitHub</h3>
+                        <img src="./src/assets/github.svg" alt="GitHub" />
+                    </article>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Projects -->
+        <div>
+            <section class="mx-72 my-10">
+                <h2 class="font-BlackOpsOne text-Viking-500 font-normal text-4xl uppercase">
+                    <span class='text-PictonBlue-300'>&lt;</span>
+                    &nbsp;Proyectos&nbsp;
+                    <span class='text-PictonBlue-300'>&gt;</span>
+                </h2>
+                <div class="grid grid-cols-2">
+                    <!-- To-DoApp -->
+                    <article class="bg-Viking-600 flex flex-col w-[32rem] px-5 my-5 rounded-lg">
+                        <h3 class="font-BebasNeue text-white text-3xl py-4">TO-DO App</h3>
+                        <div>
+                            <img src="./src/assets/To-DoApp.png" alt="IMG" class="w-[30rem] rounded-xl">
+                        </div>
+                        <p class="font-BebasNeue text-white text-xl p-4">
+                            Proyecto de Curso de programacion de un recordatorio de tareas
+                        </p>
+                        <div>
+                            <h4 class="font-BebasNeue text-white text-2xl">Tecnologias</h4>
+                            <div class="flex items-center justify-between">
+                                <ul class="flex gap-4 py-4 px-4">
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Html
+                                        <span>
+                                            <img src="./src/assets/html5.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Css
+                                        <span>
+                                            <img src="./src/assets/css3.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        JavaScript
+                                        <span>
+                                            <img src="./src/assets/javascript.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="flex gap-4">
+                                    <li>
+                                        <a href="https://proyectofinalfunval.netlify.app" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Pagina
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/VRXtucci/To-Do-App" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Codigo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </article>
+                    <!-- Insure -->
+                    <article class="bg-Viking-600 flex flex-col w-[32rem] px-5 my-5 rounded-lg">
+                        <h3 class="font-BebasNeue text-white text-3xl py-4">Insure</h3>
+                        <div>
+                            <img src="./src/assets/Insure.png" alt="IMG" class="w-[30rem] rounded-xl">
+                        </div>
+                        <p class="font-BebasNeue text-white text-xl p-4">
+                            Proyecto de Curso de programacion de la utilizacion de HTML y CSS
+                        </p>
+                        <div>
+                            <h4 class="font-BebasNeue text-white text-2xl">Tecnologias</h4>
+                            <div class="flex items-center justify-between">
+                                <ul class="flex gap-4 py-4 px-4">
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Html
+                                        <span>
+                                            <img src="./src/assets/html5.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Css
+                                        <span>
+                                            <img src="./src/assets/css3.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="flex gap-4">
+                                    <li>
+                                        <a href="https://mini-poryecto.netlify.app" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Pagina
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/VRXtucci/Insure-Landing" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Codigo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </article>
+                    <!-- PokeApp -->
+                    <article class="bg-Viking-600 flex flex-col w-[32rem] px-5 my-5 rounded-lg">
+                        <h3 class="font-BebasNeue text-white text-3xl py-4">PokeApp</h3>
+                        <div>
+                            <img src="./src/assets/PokeApp.png" alt="IMG" class="w-[30rem] rounded-xl">
+                        </div>
+                        <p class="font-BebasNeue text-white text-xl p-4">
+                            Proyecto Cargando la Api de pokemon utilizando react, axios y javascript.
+                        </p>
+                        <div>
+                            <h4 class="font-BebasNeue text-white text-2xl">Tecnologias</h4>
+                            <div class="flex items-center justify-between">
+                                <ul class="flex gap-4 py-4 px-4">
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        React
+                                        <span>
+                                            <img src="./src/assets/react.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Axios
+                                        <span>
+                                            <img src="./src/assets/axios.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        JavaScript
+                                        <span>
+                                            <img src="./src/assets/javascript.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="flex gap-4">
+                                    <li>
+                                        <a href="https://pokedex-app-tucci.netlify.app" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Pagina
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/VRXtucci/PokedexApp" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Codigo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </article>
+                    <!-- Windbnb -->
+                    <article class="bg-Viking-600 flex flex-col w-[32rem] px-5 my-5 rounded-lg">
+                        <h3 class="font-BebasNeue text-white text-3xl py-4">Windbnb</h3>
+                        <div>
+                            <img src="./src/assets/Windbnd.png" alt="IMG" class="w-[30rem] rounded-xl">
+                        </div>
+                        <p class="font-BebasNeue text-white text-xl p-4">
+                            Proyecto Cargando Api de Hoteles de Finlandia utilizando react, axios y javascript.
+                        </p>
+                        <div>
+                            <h4 class="font-BebasNeue text-white text-2xl">Tecnologias</h4>
+                            <div class="flex items-center justify-between">
+                                <ul class="flex gap-4 py-4 px-4">
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        React
+                                        <span>
+                                            <img src="./src/assets/react.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Axios
+                                        <span>
+                                            <img src="./src/assets/axios.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        JavaScript
+                                        <span>
+                                            <img src="./src/assets/javascript.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="flex gap-4">
+                                    <li>
+                                        <a href="https://windbnbtucci.netlify.app" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Pagina
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/VRXtucci/windbnbtucci" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Codigo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </article>
+                    <!-- The creative crew -->
+                    <article class="bg-Viking-600 flex flex-col w-[32rem] px-5 my-5 rounded-lg">
+                        <h3 class="font-BebasNeue text-white text-3xl py-4">Windbnb</h3>
+                        <div>
+                            <img src="./src/assets/MyTeamPage.png" alt="IMG" class="w-[30rem] rounded-xl">
+                        </div>
+                        <p class="font-BebasNeue text-white text-xl p-4">
+                            Proyecto realizado con Tailwind, HTML y Javascript.
+                        </p>
+                        <div>
+                            <h4 class="font-BebasNeue text-white text-2xl">Tecnologias</h4>
+                            <div class="flex items-center justify-between">
+                                <ul class="flex gap-4 py-4 px-4">
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Tailwind
+                                        <span>
+                                            <img src="./src/assets/tailwind.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        Html
+                                        <span>
+                                            <img src="./src/assets/html5.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                    <li class="font-BebasNeue text-xl text-center font-medium">
+                                        JavaScript
+                                        <span>
+                                            <img src="./src/assets/javascript.svg" alt="HTML" class="w-16">
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="flex gap-4">
+                                    <li>
+                                        <a href="https://darkmodetailwind.netlify.app" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Pagina
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/VRXtucci/MyTeamPage" target="_blank" rel="noopener noreferrer"
+                                            class="font-BebasNeue text-white text-2xl hover:text-Viking-800">
+                                            Codigo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
